@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pagamento via PIX - RocketDeals</title>
+  
+  <link rel="stylesheet" href="../../styles/checkout.css">
+</head>
+<body>
+<div class="pagamento-container">
+  <div class="checkout-top">
+    <div class="logo-area">
+      <h1>RocketDeals</h1>
+      <p>Checkout PIX instantaneo e seguro</p>
+    </div>
+    <div class="offer-badge"><span>AMBIENTE PROTEGIDO</span></div>
+  </div>
+
+  <div class="produto-card">
+    <img id="orderImage" src="../../assets/images/branding/logo.jpg" alt="Produto selecionado">
+    <div class="produto-info">
+      <h2 id="orderName">Seu jogo selecionado</h2>
+      <p id="orderOption">Opcao selecionada sera exibida aqui</p>
+      <div class="preco" id="orderPrice">R$ --,--</div>
+    </div>
+  </div>
+
+  <div class="pix-box">
+    <div class="pix-label">CHAVE PIX (EMAIL)</div>
+    <div class="chave-pix" id="chavePix">contact@phocade.com.br</div>
+    <button class="btn-copiar" id="btnCopiar">Copiar chave PIX</button>
+  </div>
+
+  <div class="steps">
+    <div class="step"><div class="step-number">1</div><div class="step-text"><strong>Copie a chave PIX</strong><br>Clique em copiar para preencher automaticamente no seu banco.</div></div>
+    <div class="step"><div class="step-number">2</div><div class="step-text"><strong>Efetue o pagamento</strong><br>Finalize o PIX no valor exibido acima.</div></div>
+    <div class="step"><div class="step-number">3</div><div class="step-text"><strong>Envie o comprovante</strong><br>Abra um ticket no Discord para liberar rapidamente seu pedido.</div></div>
+  </div>
+
+  <button class="btn-voltar" id="btnVoltar">← Voltar para os jogos</button>
+</div>
+
+<script src="../../scripts/checkout.js"></script>
+</body>
+</html>
+

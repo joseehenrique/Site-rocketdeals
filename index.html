@@ -1,0 +1,99 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RocketDeals | A melhor loja de games</title>
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+<div class="animated-bg"></div>
+
+<header class="topbar">
+  <nav class="navbar">
+    <a href="#" class="logo">
+      <img src="assets/images/branding/logo.jpg" alt="RocketDeals Logo" class="logo-img" onerror="this.src='https://placehold.co/45x45/0088ff/white?text=R'">
+      <h1>Rocket<span>Deals</span></h1>
+    </a>
+    <div class="search-bar">
+      <input type="text" id="searchInput" placeholder="Buscar jogo, franquia ou gênero...">
+    </div>
+    <div class="nav-buttons">
+      <a href="https://discord.gg/J68sNmyqu" target="_blank" class="nav-btn nav-btn-outline">Discord</a>
+      <a href="https://www.instagram.com/rocket_deals2026" target="_blank" class="nav-btn nav-btn-primary">Instagram</a>
+    </div>
+  </nav>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="hero-content">
+      <div class="badge">NOVA TEMPORADA DE OFERTAS</div>
+      <h2>Games premium com os
+melhores preços da <span>Steam</span></h2>
+      <p>Encontre os melhores títulos com ativação rápida, entrega segura e suporte especializado 24 horas.</p>
+      <div class="hero-buttons">
+        <button class="btn-hero btn-hero-primary" onclick="document.getElementById('products').scrollIntoView({behavior: 'smooth'})">Ver catálogo</button>
+        <a href="https://discord.gg/J68sNmyqu" target="_blank" class="btn-hero btn-hero-secondary">Entrar no suporte</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat"><div class="stat-number">23</div><div class="stat-label">JOGOS</div></div>
+        <div class="stat"><div class="stat-number">PIX</div><div class="stat-label">PAGAMENTO</div></div>
+        <div class="stat"><div class="stat-number">24/7</div><div class="stat-label">SUPORTE</div></div>
+      </div>
+    </div>
+    <div class="hero-cards">
+      <div class="floating-card"><img src="assets/images/hero/red-dead-redemption-2.jpg" alt="Red Dead Redemption 2"></div>
+      <div class="floating-card"><img src="assets/images/hero/forza-horizon-6.jpg" alt="Forza Horizon 6"></div>
+      <div class="floating-card"><img src="assets/images/hero/hero-card-3.webp" alt="Jogo em destaque"></div>
+    </div>
+  </section>
+
+  <section class="products-section" id="products">
+    <div class="section-header">
+      <div>
+        <div class="section-title">Catálogo de Jogos</div>
+        <div class="section-subtitle">Entre em um jogo para ver detalhes, trailer e opções de compra</div>
+      </div>
+    </div>
+    <div class="products-grid" id="productsGrid"></div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="footer-grid">
+    <div class="footer-col">
+      <h4>ROCKETDEALS</h4>
+      <p>Loja de games com experiência renovada, rápida e segura para compras por PIX.</p>
+    </div>
+    <div class="footer-col">
+      <h4>NAVEGAÇÃO</h4>
+      <a href="#">Início</a>
+      <a href="#">Catálogo</a>
+      <a href="#">Termos</a>
+      <a href="#">Suporte</a>
+    </div>
+    <div class="footer-col">
+      <h4>ATENDIMENTO</h4>
+      <a href="#">Central de ajuda</a>
+      <a href="#">Dúvidas frequentes</a>
+      <a href="#">Pagamentos</a>
+      <a href="#">Entrega</a>
+    </div>
+    <div class="footer-col">
+      <h4>COMUNIDADE</h4>
+      <div class="social-links">
+        <a href="https://discord.gg/J68sNmyqu" target="_blank" class="social-link">Discord</a>
+        <a href="https://www.instagram.com/rocket_deals2026" target="_blank" class="social-link">Instagram</a>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2026 RocketDeals. Todos os direitos reservados.</span>
+  </div>
+</footer>
+
+<script src="scripts/catalog.js"></script>
+</body>
+</html>
+
